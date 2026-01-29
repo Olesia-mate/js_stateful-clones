@@ -28,7 +28,7 @@ function transformStateWithClones(state, actions) {
           }, {});
         break;
       default:
-        return currentCopy;
+        break;
     }
     statesHistory.push({ ...currentCopy });
   });
